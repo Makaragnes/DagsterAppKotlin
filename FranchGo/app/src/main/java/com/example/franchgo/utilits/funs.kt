@@ -1,4 +1,4 @@
-package com.example.reporter.utilits
+package com.example.franchgo.utilits
 
 import android.content.Context
 import android.content.Intent
@@ -7,10 +7,10 @@ import android.view.inputmethod.InputMethodManager
 import android.widget.ImageView
 import android.widget.Toast
 import androidx.fragment.app.Fragment
-import com.example.reporter.MainActivity
-import com.example.reporter.R
-import com.example.reporter.database.updatePhonesToDatabase
-import com.example.reporter.models.CommonModel
+import com.example.franchgo.MainActivity
+import com.example.franchgo.R
+import com.example.franchgo.database.updatePhonesToDatabase
+import com.example.franchgo.models.CommonModel
 import com.squareup.picasso.Picasso
 import java.text.SimpleDateFormat
 import java.util.*

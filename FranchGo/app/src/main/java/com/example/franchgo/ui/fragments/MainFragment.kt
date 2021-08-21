@@ -1,5 +1,4 @@
-package com.example.reporter.ui.fragments
-
+package com.example.franchgo.ui.fragments
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -7,19 +6,18 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
-import com.example.reporter.R
-import com.example.reporter.database.*
-import com.example.reporter.models.CommonModel
-import com.example.reporter.ui.fragments.single_chat.SingleChatFragment
-import com.example.reporter.utilits.*
+import com.example.franchgo.R
+import com.example.franchgo.database.*
+import com.example.franchgo.models.CommonModel
+import com.example.franchgo.ui.fragments.single_chat.SingleChatFragment
+import com.example.franchgo.utilits.*
 import com.firebase.ui.database.FirebaseRecyclerAdapter
 import com.firebase.ui.database.FirebaseRecyclerOptions
 import com.google.firebase.database.DatabaseReference
 import de.hdodenhof.circleimageview.CircleImageView
 import kotlinx.android.synthetic.main.contact_item.view.*
 import kotlinx.android.synthetic.main.fragment_chats.*
-import kotlinx.android.synthetic.main.fragment_contacts.*
-import kotlinx.android.synthetic.main.list_item_contact.view.*
+
 
 /* Главный фрагмент, содержит все чаты, группы и каналы с которыми взаимодействует пользователь*/
 

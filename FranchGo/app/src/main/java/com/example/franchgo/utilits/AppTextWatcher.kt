@@ -1,4 +1,4 @@
-package com.example.reporter.utilits
+package com.example.franchgo.utilits
 
 import android.text.Editable
 import android.text.TextWatcher

@@ -1,4 +1,4 @@
-package com.example.reporter.ui.fragments.testFragments
+package com.example.franchgo.ui.fragments.testFragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -9,9 +9,9 @@ import android.webkit.WebResourceRequest
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import androidx.recyclerview.widget.RecyclerView
-import com.example.reporter.R
-import com.example.reporter.ui.fragments.BaseFragment
-import com.example.reporter.utilits.APP_ACTIVITY
+import com.example.franchgo.R
+import com.example.franchgo.ui.fragments.BaseFragment
+import com.example.franchgo.utilits.APP_ACTIVITY
 import kotlinx.android.synthetic.main.fragment_lenta.*
 import kotlinx.android.synthetic.main.fragment_test_list.*
 

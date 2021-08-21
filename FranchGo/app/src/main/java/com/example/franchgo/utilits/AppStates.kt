@@ -1,6 +1,6 @@
-package com.example.reporter.utilits
+package com.example.franchgo.utilits
 
-import com.example.reporter.database.*
+import com.example.franchgo.database.*
 
 enum class AppStates(val state:String) {
     /* Класс перечисление состояний приложения*/

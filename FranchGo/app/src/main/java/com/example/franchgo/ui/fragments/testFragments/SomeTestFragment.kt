@@ -1,12 +1,12 @@
-package com.example.reporter.ui.fragments.testFragments
+package com.example.franchgo.ui.fragments.testFragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.reporter.R
-import com.example.reporter.ui.fragments.BaseFragment
+import com.example.franchgo.R
+import com.example.franchgo.ui.fragments.BaseFragment
 
 
 class SomeTestFragment : BaseFragment(R.layout.fragment_some_test) {

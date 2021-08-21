@@ -1,17 +1,17 @@
-package com.example.reporter.ui.objects
+package com.example.franchgo.ui.objects
 
 import android.graphics.drawable.Drawable
 import android.net.Uri
 import android.view.View
 import android.widget.ImageView
 import androidx.drawerlayout.widget.DrawerLayout
-import com.example.reporter.utilits.APP_ACTIVITY
-import com.example.reporter.R
-import com.example.reporter.database.USER
-import com.example.reporter.ui.fragments.*
-
-import com.example.reporter.utilits.downloadAndSetImage
-import com.example.reporter.utilits.replaceFragment
+import com.example.franchgo.R
+import com.example.franchgo.database.USER
+import com.example.franchgo.ui.fragments.*
+import com.example.franchgo.utilits.APP_ACTIVITY
+import com.example.franchgo.utilits.downloadAndSetImage
+import com.example.franchgo.utilits.replaceFragment
+import com.example.franchgo.utilits.showToast
 import com.mikepenz.materialdrawer.AccountHeader
 import com.mikepenz.materialdrawer.AccountHeaderBuilder
 import com.mikepenz.materialdrawer.Drawer
@@ -22,6 +22,7 @@ import com.mikepenz.materialdrawer.model.ProfileDrawerItem
 import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem
 import com.mikepenz.materialdrawer.util.AbstractDrawerImageLoader
 import com.mikepenz.materialdrawer.util.DrawerImageLoader
+
 
 /* Обьект реализующий боковое меню Navigation Drawer */
 
@@ -71,28 +72,48 @@ class AppDrawer {
             .addDrawerItems(
                 PrimaryDrawerItem().withIdentifier(100)
                     .withIconTintingEnabled(true)
-                    .withName("Stock")
+                    .withName("Мой профиль")
                     .withSelectable(false)
                     .withIcon(R.drawable.ic_menu_create_groups),
                 PrimaryDrawerItem().withIdentifier(101)
                     .withIconTintingEnabled(true)
-                    .withName("Franchise")
+                    .withName("Карты")
                     .withSelectable(false)
-                    .withIcon(R.drawable.ic_baseline_error_24),
+                    .withIcon(R.drawable.ic_menu_secret_chat),
                 PrimaryDrawerItem().withIdentifier(102)
                     .withIconTintingEnabled(true)
-                    .withName("Statistics")
+                    .withName("Умный бот")
                     .withSelectable(false)
                     .withIcon(R.drawable.ic_menu_create_channel),
+                PrimaryDrawerItem().withIdentifier(103)
+                    .withIconTintingEnabled(true)
+                    .withName("Контакты")
+                    .withSelectable(false)
+                    .withIcon(R.drawable.ic_menu_contacts),
+                PrimaryDrawerItem().withIdentifier(104)
+                    .withIconTintingEnabled(true)
+                    .withName("Лента вакансий")
+                    .withSelectable(false)
+                    .withIcon(R.drawable.ic_menu_phone),
+                PrimaryDrawerItem().withIdentifier(105)
+                    .withIconTintingEnabled(true)
+                    .withName("Тесты")
+                    .withSelectable(false)
+                    .withIcon(R.drawable.ic_menu_favorites),
+                PrimaryDrawerItem().withIdentifier(106)
+                    .withIconTintingEnabled(true)
+                    .withName("Настройки")
+                    .withSelectable(false)
+                    .withIcon(R.drawable.ic_menu_settings),
                 DividerDrawerItem(),
                 PrimaryDrawerItem().withIdentifier(108)
                     .withIconTintingEnabled(true)
-                    .withName("QR-code")
+                    .withName("QR-код")
                     .withSelectable(false)
                     .withIcon(R.drawable.ic_menu_invate),
                 PrimaryDrawerItem().withIdentifier(109)
                     .withIconTintingEnabled(true)
-                    .withName("About us")
+                    .withName("Вопросы о нас")
                     .withSelectable(false)
                     .withIcon(R.drawable.ic_menu_help)
             ).withOnDrawerItemClickListener(object : Drawer.OnDrawerItemClickListener {

@@ -1,8 +1,9 @@
-package com.example.reporter.ui.fragments
+package com.example.franchgo.ui.fragments
 
-import com.example.reporter.R
-import com.example.reporter.database.*
-import com.example.reporter.utilits.*
+import com.example.franchgo.R
+import com.example.franchgo.database.*
+import com.example.franchgo.utilits.AppValueEventListener
+import com.example.franchgo.utilits.showToast
 import kotlinx.android.synthetic.main.fragment_change_username.*
 import java.util.*
 

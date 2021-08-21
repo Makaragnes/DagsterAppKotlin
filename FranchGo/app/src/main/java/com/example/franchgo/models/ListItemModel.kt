@@ -1,4 +1,4 @@
-package com.example.reporter.models
+package com.example.franchgo.models
 
 data class ListItemModel (
 

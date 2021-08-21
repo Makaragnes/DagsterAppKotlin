@@ -1,16 +1,18 @@
-package com.example.reporter.ui.fragments.register
+package com.example.franchgo.ui.fragments.register
 
 import androidx.fragment.app.Fragment
-
-import com.example.reporter.R
-import com.example.reporter.database.AUTH
-import com.example.reporter.utilits.*
-import com.example.reporter.ui.fragments.register.EnterCodeFragment
+import com.example.franchgo.R
+import com.example.franchgo.database.AUTH
+import com.example.franchgo.utilits.APP_ACTIVITY
+import com.example.franchgo.utilits.replaceFragment
+import com.example.franchgo.utilits.restartActivity
+import com.example.franchgo.utilits.showToast
 import com.google.firebase.FirebaseException
 import com.google.firebase.auth.PhoneAuthCredential
 import com.google.firebase.auth.PhoneAuthProvider
 import kotlinx.android.synthetic.main.fragment_enter_phone_number.*
 import java.util.concurrent.TimeUnit
+
 
 /* Фрагмент для ввода номера телефона при регистрации */
 

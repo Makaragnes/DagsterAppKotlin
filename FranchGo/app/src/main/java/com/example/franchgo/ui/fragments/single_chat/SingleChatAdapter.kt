@@ -1,4 +1,5 @@
-package com.example.reporter.ui.fragments.single_chat
+package com.example.franchgo.ui.fragments.single_chat
+
 
 import android.view.LayoutInflater
 import android.view.View
@@ -7,14 +8,15 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.recyclerview.widget.RecyclerView
-import com.example.reporter.R
-import com.example.reporter.models.CommonModel
-import com.example.reporter.database.CURRENT_UID
-import com.example.reporter.utilits.TYPE_MESSAGE_IMAGE
-import com.example.reporter.utilits.TYPE_MESSAGE_TEXT
-import com.example.reporter.utilits.asTime
-import com.example.reporter.utilits.downloadAndSetImage
+import com.example.franchgo.R
+import com.example.franchgo.database.CURRENT_UID
+import com.example.franchgo.models.CommonModel
+import com.example.franchgo.utilits.TYPE_MESSAGE_IMAGE
+import com.example.franchgo.utilits.TYPE_MESSAGE_TEXT
+import com.example.franchgo.utilits.asTime
+import com.example.franchgo.utilits.downloadAndSetImage
 import kotlinx.android.synthetic.main.message_item.view.*
+
 
 class SingleChatAdapter : RecyclerView.Adapter<SingleChatAdapter.SingleChatHolder>() {
 

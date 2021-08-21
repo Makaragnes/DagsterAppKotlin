@@ -1,6 +1,6 @@
-package com.example.reporter.utilits
+package com.example.franchgo.utilits
 
-import com.example.reporter.MainActivity
+import com.example.franchgo.MainActivity
 
 /* Файл содержит все константы приложения*/
 

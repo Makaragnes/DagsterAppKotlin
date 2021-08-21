@@ -1,5 +1,4 @@
-package com.example.reporter.ui.fragments
-
+package com.example.franchgo.ui.fragments
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -9,8 +8,8 @@ import android.webkit.WebResourceRequest
 import android.webkit.WebSettings
 import android.webkit.WebView
 import android.webkit.WebViewClient
-import com.example.reporter.R
-import kotlinx.android.synthetic.main.fragment_maps.*
+import com.example.franchgo.R
+
 import java.net.URL
 
 

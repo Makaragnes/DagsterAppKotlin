@@ -1,13 +1,11 @@
-package com.example.reporter.ui.fragments
-
+package com.example.franchgo.ui.fragments
 import android.view.Menu
 import android.view.MenuInflater
 import android.view.MenuItem
 import androidx.fragment.app.Fragment
-import com.example.reporter.MainActivity
-import com.example.reporter.R
-import com.example.reporter.utilits.APP_ACTIVITY
-import com.example.reporter.utilits.hideKeyboard
+import com.example.franchgo.MainActivity
+import com.example.franchgo.R
+import com.example.franchgo.utilits.hideKeyboard
 
 /* Базовый фрагмент, от него наследуются фрагменты где происходит изменение данных о пользователе. */
 

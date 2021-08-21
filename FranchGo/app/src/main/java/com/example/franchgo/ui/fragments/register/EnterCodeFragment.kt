@@ -1,12 +1,13 @@
-package com.example.reporter.ui.fragments.register
+package com.example.franchgo.ui.fragments.register
+
 
 import androidx.fragment.app.Fragment
-import com.example.reporter.R
-import com.example.reporter.database.*
-import com.example.reporter.database.FirebaseData.database
-import com.example.reporter.utilits.*
+import com.example.franchgo.R
+import com.example.franchgo.database.*
+import com.example.franchgo.utilits.*
 import com.google.firebase.auth.PhoneAuthProvider
 import kotlinx.android.synthetic.main.fragment_enter_code.*
+
 
 /* Фрагмент для ввода кода подтверждения при регистрации */
 

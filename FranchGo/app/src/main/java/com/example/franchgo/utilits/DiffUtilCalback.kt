@@ -1,7 +1,7 @@
-package com.example.reporter.utilits
+package com.example.franchgo.utilits
 
 import androidx.recyclerview.widget.DiffUtil
-import com.example.reporter.models.CommonModel
+import com.example.franchgo.models.CommonModel
 
 
 class DiffUtilCalback(

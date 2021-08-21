@@ -1,12 +1,12 @@
-package com.example.reporter.ui.fragments.testFragments
+package com.example.franchgo.ui.fragments.testFragments
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.reporter.R
-import com.example.reporter.models.ListItemModel
+import com.example.franchgo.R
+import com.example.franchgo.models.ListItemModel
 import kotlinx.android.synthetic.main.test_item.view.*
 
 class AdapterForTestListFragment:

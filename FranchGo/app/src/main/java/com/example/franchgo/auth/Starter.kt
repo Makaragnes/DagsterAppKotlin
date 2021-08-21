@@ -4,8 +4,8 @@ import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import androidx.appcompat.app.AppCompatActivity
-import com.example.reporter.MainActivity
-import com.example.reporter.R
+import com.example.franchgo.MainActivity
+import com.example.franchgo.R
 
 class Starter : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -15,6 +15,6 @@ class Starter : AppCompatActivity() {
         Handler().postDelayed({
             startActivity(Intent(this@Starter, MainActivity::class.java))
             finish()
-        }, 3000)
+        }, 1000)
     }
 }

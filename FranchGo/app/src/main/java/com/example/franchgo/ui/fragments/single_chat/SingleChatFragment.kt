@@ -1,4 +1,4 @@
-package com.example.reporter.ui.fragments.single_chat
+package com.example.franchgo.ui.fragments.single_chat
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -11,17 +11,19 @@ import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
-import com.example.reporter.R
-import com.example.reporter.database.*
-import com.example.reporter.models.CommonModel
-import com.example.reporter.models.UserModel
-import com.example.reporter.ui.fragments.BaseFragment
-import com.example.reporter.utilits.*
+import com.example.franchgo.R
+import com.example.franchgo.database.*
+import com.example.franchgo.models.CommonModel
+import com.example.franchgo.models.UserModel
+import com.example.franchgo.ui.fragments.BaseFragment
+import com.example.franchgo.utilits.*
+
 import com.google.firebase.database.DatabaseReference
 import com.theartofdev.edmodo.cropper.CropImage
 import kotlinx.android.synthetic.main.activity_main.view.*
 import kotlinx.android.synthetic.main.fragment_single_chat.*
 import kotlinx.android.synthetic.main.toolbar_info.view.*
+
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

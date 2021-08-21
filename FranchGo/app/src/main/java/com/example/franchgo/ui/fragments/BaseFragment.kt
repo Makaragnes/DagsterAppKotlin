@@ -1,7 +1,6 @@
-package com.example.reporter.ui.fragments
-
+package com.example.franchgo.ui.fragments
 import androidx.fragment.app.Fragment
-import com.example.reporter.utilits.APP_ACTIVITY
+import com.example.franchgo.utilits.APP_ACTIVITY
 
 /* Базовый фрагмент, от него наследуются все фрагменты приложения, кроме главного */
 

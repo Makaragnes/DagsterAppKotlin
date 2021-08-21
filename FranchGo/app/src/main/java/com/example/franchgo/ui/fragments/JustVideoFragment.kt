@@ -1,13 +1,11 @@
-package com.example.reporter.ui.fragments
-
+package com.example.franchgo.ui.fragments
 import android.webkit.WebChromeClient
 import android.webkit.WebResourceRequest
 import android.webkit.WebView
 import android.webkit.WebViewClient
-import com.example.reporter.R
-import com.example.reporter.utilits.APP_ACTIVITY
+import com.example.franchgo.R
+import com.example.franchgo.utilits.APP_ACTIVITY
 import kotlinx.android.synthetic.main.fragment_just_video.*
-
 
 class JustVideoFragment : BaseFragment(R.layout.fragment_just_video) {
 

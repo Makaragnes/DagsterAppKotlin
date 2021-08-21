@@ -1,5 +1,4 @@
-package com.example.reporter.ui.fragments
-
+package com.example.franchgo.ui.fragments
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -8,10 +7,8 @@ import android.view.ViewGroup
 import android.webkit.WebResourceRequest
 import android.webkit.WebView
 import android.webkit.WebViewClient
-import com.example.reporter.R
-import com.example.reporter.utilits.APP_ACTIVITY
-import kotlinx.android.synthetic.main.fragment_intalagent_bot.*
-import kotlinx.android.synthetic.main.fragment_maps.*
+import com.example.franchgo.R
+
 
 class IntalagentBotFragment : BaseFragment(R.layout.fragment_intalagent_bot) {
 

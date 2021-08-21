@@ -1,9 +1,11 @@
-package com.example.reporter.ui.fragments
+package com.example.franchgo.ui.fragments
 
-import com.example.reporter.R
-import com.example.reporter.database.*
-import com.example.reporter.utilits.*
+import com.example.franchgo.R
+import com.example.franchgo.database.USER
+import com.example.franchgo.database.setNameToDatabase
+import com.example.franchgo.utilits.showToast
 import kotlinx.android.synthetic.main.fragment_change_name.*
+
 
 // Фрагмент для изменения имени пользователя
 

@@ -1,4 +1,4 @@
-package com.example.reporter.utilits
+package com.example.franchgo.utilits
 
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError

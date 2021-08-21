@@ -1,13 +1,13 @@
-package com.example.reporter.database
+package com.example.franchgo.database
 
 import android.net.Uri
-import com.example.reporter.R
-import com.example.reporter.models.CommonModel
-import com.example.reporter.models.UserModel
-import com.example.reporter.utilits.APP_ACTIVITY
-import com.example.reporter.utilits.AppValueEventListener
-import com.example.reporter.utilits.TYPE_MESSAGE_IMAGE
-import com.example.reporter.utilits.showToast
+import com.example.franchgo.R
+import com.example.franchgo.models.CommonModel
+import com.example.franchgo.models.UserModel
+import com.example.franchgo.utilits.APP_ACTIVITY
+import com.example.franchgo.utilits.AppValueEventListener
+import com.example.franchgo.utilits.TYPE_MESSAGE_IMAGE
+import com.example.franchgo.utilits.showToast
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseReference
@@ -15,6 +15,7 @@ import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ServerValue
 import com.google.firebase.storage.FirebaseStorage
 import com.google.firebase.storage.StorageReference
+
 import java.util.ArrayList
 
 lateinit var AUTH: FirebaseAuth

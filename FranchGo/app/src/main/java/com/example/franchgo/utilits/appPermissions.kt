@@ -1,4 +1,4 @@
-package com.example.reporter.utilits
+package com.example.franchgo.utilits
 
 import android.Manifest
 import android.content.pm.PackageManager

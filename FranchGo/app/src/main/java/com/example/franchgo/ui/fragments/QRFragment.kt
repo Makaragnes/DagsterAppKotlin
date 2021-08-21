@@ -1,5 +1,4 @@
-package com.example.reporter.ui.fragments
-
+package com.example.franchgo.ui.fragments
 import android.graphics.Bitmap
 import android.graphics.Color
 import android.os.Bundle
@@ -8,14 +7,12 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
-import com.example.reporter.R
-import com.example.reporter.database.REF_DATABASE_ROOT
-import com.example.reporter.database.USER
-import com.example.reporter.utilits.APP_ACTIVITY
+import com.example.franchgo.R
+import com.example.franchgo.database.USER
+import com.example.franchgo.utilits.APP_ACTIVITY
 import com.google.zxing.BarcodeFormat
 import com.google.zxing.qrcode.QRCodeWriter
 import kotlinx.android.synthetic.main.fragment_q_r.*
-import kotlinx.android.synthetic.main.fragment_settings.*
 
 
 class QRFragment : BaseFragment(R.layout.fragment_q_r) {

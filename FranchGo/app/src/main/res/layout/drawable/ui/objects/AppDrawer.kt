@@ -5,13 +5,6 @@ import android.net.Uri
 import android.view.View
 import android.widget.ImageView
 import androidx.drawerlayout.widget.DrawerLayout
-import com.example.reporter.R
-import com.example.reporter.ui.fragments.ContactsFragment
-import com.example.reporter.ui.fragments.SettingsFragment
-import com.example.reporter.utilits.APP_ACTIVITY
-import com.example.reporter.database.USER
-import com.example.reporter.utilits.downloadAndSetImage
-import com.example.reporter.utilits.replaceFragment
 import com.mikepenz.materialdrawer.AccountHeader
 import com.mikepenz.materialdrawer.AccountHeaderBuilder
 import com.mikepenz.materialdrawer.Drawer

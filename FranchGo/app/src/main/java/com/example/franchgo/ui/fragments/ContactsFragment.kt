@@ -1,15 +1,16 @@
-package com.example.reporter.ui.fragments
-
+package com.example.franchgo.ui.fragments
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.reporter.R
-import com.example.reporter.database.*
-import com.example.reporter.models.CommonModel
-import com.example.reporter.ui.fragments.single_chat.SingleChatFragment
-import com.example.reporter.utilits.*
+import com.example.franchgo.R
+import com.example.franchgo.database.*
+import com.example.franchgo.models.CommonModel
+import com.example.franchgo.utilits.APP_ACTIVITY
+import com.example.franchgo.utilits.AppValueEventListener
+import com.example.franchgo.utilits.downloadAndSetImage
+import com.example.franchgo.utilits.replaceFragment
 import com.firebase.ui.database.FirebaseRecyclerAdapter
 import com.firebase.ui.database.FirebaseRecyclerOptions
 import com.google.firebase.database.DatabaseReference
@@ -24,8 +25,8 @@ class ContactsFragment : BaseFragment(R.layout.fragment_contacts) {
     private lateinit var mAdapter: FirebaseRecyclerAdapter<CommonModel, ContactsHolder>
     private lateinit var mRefContacts: DatabaseReference
     private lateinit var mRefUsers: DatabaseReference
-    private lateinit var mRefUsersListener:AppValueEventListener
-    private  var mapListeners = hashMapOf<DatabaseReference,AppValueEventListener>()
+    private lateinit var mRefUsersListener: AppValueEventListener
+    private  var mapListeners = hashMapOf<DatabaseReference, AppValueEventListener>()
 
     override fun onResume() {
         super.onResume()

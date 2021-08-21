@@ -1,4 +1,5 @@
-package com.example.salamport.ui.fragments.testFragments
+package com.example.franchgo.ui.fragments.testFragments
+
 
 class AdapterForeSomeFragment {
 }
